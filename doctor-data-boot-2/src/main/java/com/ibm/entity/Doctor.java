@@ -24,6 +24,8 @@ public class Doctor {
 	@Column(length=30)
 	private String speciality;
 	
+	
+	//second check
 	@OneToMany(mappedBy = "doc",cascade = CascadeType.ALL)
 	private List<Appointment> app=new ArrayList<Appointment>();
 
