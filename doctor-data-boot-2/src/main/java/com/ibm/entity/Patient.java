@@ -32,6 +32,7 @@ public class Patient {
 		this.patId = patId;
 	}
 
+	//change made 
 	public String getName() {
 		return name;
 	}
