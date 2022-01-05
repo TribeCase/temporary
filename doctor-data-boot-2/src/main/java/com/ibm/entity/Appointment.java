@@ -24,6 +24,7 @@ public class Appointment {
 	@Column(name = "app_date")
 	private LocalDate appDate;
 
+	//my edit 
 	public Doctor getDoc() {
 		return doc;
 	}
