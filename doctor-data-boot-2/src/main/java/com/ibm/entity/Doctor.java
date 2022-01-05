@@ -23,7 +23,7 @@ public class Doctor {
 	private String name;
 	@Column(length=30)
 	private String speciality;
-	
+	//jahnavi change
 	
 	//second check
 	@OneToMany(mappedBy = "doc",cascade = CascadeType.ALL)
