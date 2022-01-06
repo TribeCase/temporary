@@ -7,4 +7,6 @@ public interface PatientService {
 	int addPatient(Patient pat);
 	
 	Patient findAllPatient(int id);
+	
+	void updatePat(Patient p,String name);
 }

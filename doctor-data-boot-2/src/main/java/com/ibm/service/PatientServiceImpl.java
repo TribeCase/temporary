@@ -21,5 +21,12 @@ public class PatientServiceImpl implements PatientService {
 		// TODO Auto-generated method stub
 		return repo.findById(id).get();
 	}
-
+	@Override
+	public void updatePat(Patient p, String name) {
+		// TODO Auto-generated method stub
+		p.setName(name);
+		repo.save(p);
+	}
+	
+	
 }
